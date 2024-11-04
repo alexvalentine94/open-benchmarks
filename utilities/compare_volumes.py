@@ -2,7 +2,7 @@ import json
 import os
 import argparse
 
-BASE_PATH = '../jade_open_benchmarks/inputs'  # Hardcoded base path to the benchmarks folder
+BASE_PATH = '../jade_open_benchmarks/inputs'  
 
 def load_json(file_path):
     with open(file_path, 'r') as file:
