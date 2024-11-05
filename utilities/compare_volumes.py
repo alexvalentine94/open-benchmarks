@@ -24,7 +24,7 @@ def compare_volumes(mcnp_volumes, code_volumes, code):
             if volume1 is None or volume2 is None:
                 percentage_diff = None
             else:
-                percentage_diff = (abs(volume1 - volume2) / ((volume1 + volume2) / 2)) * 100
+                percentage_diff = (abs(volume1 - volume2) / (volume2)) * 100
             
             differences.append({
                 "cell": cell,
